@@ -1,3 +1,3 @@
 import sqlalchemy
 
-dbconnection = sqlalchemy.create_engine("sqlite:///handlers/tracklist.db")
+dbconnection = sqlalchemy.create_engine("sqlite:///tracklist.db")

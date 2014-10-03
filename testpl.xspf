@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Test playlist</title>
+	<trackList>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=716980</location>
+			<title>Victoria Caffè - Grand daddy</title>
+			<creator>Victoria Caffè</creator>
+			<album>Busy Days</album>
+			<image>file:///home/klez/.cache/vlc/art/artistalbum/Victoria%20Caff%C3%A8/Busy%20Days/art.jpg</image>
+			<duration>176000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=925664</location>
+			<title>Professor Kliq - All That Matters</title>
+			<creator>Professor Kliq</creator>
+			<album>Curriculum Vitae</album>
+			<image>file:///home/klez/.cache/vlc/art/artistalbum/Professor%20Kliq/Curriculum%20Vitae/art.jpg</image>
+			<duration>347000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=288283</location>
+			<title>Fhernando - So Excited (Twenty-Four Seven)</title>
+			<creator>Fhernando</creator>
+			<album>Sweet Addiction (Bonus Track Version)</album>
+			<image>file:///home/klez/.cache/vlc/art/artistalbum/Fhernando/Sweet%20Addiction%20%28Bonus%20Track%20Version%29/art.jpg</image>
+			<duration>196000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=327322</location>
+			<title>Jahzzar - Dancing</title>
+			<creator>Jahzzar</creator>
+			<album>1974</album>
+			<image>file:///home/klez/.cache/vlc/art/artistalbum/Jahzzar/1974/art.jpg</image>
+			<duration>445000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=221346</location>
+			<title>Chill Carrier - Buena Vista</title>
+			<creator>Chill Carrier</creator>
+			<album>Awakening</album>
+			<image>file:///home/klez/.cache/vlc/art/artistalbum/Chill%20Carrier/Awakening/art.jpg</image>
+			<duration>294000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=225620</location>
+			<title>Charlie Mosbrook - Spread My Wings</title>
+			<creator>Charlie Mosbrook</creator>
+			<album>Nothing Is Clear</album>
+			<image>file:///home/klez/.cache/vlc/art/artistalbum/Charlie%20Mosbrook/Nothing%20Is%20Clear/art.jpg</image>
+			<duration>165000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=951447</location>
+			<title>Ay - 14ice - Ay-14ice - Don&#39;t Follow Me</title>
+			<creator>Ay - 14ice</creator>
+			<album>Ay-14ice - Show Me What You Got</album>
+			<image>file:///home/klez/.cache/vlc/art/artistalbum/Ay%20-%2014ice/Ay-14ice%20-%20Show%20Me%20What%20You%20Got/art.jpg</image>
+			<duration>314000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=989175</location>
+			<title>Sunwill - The Highlights</title>
+			<creator>Sunwill</creator>
+			<album>The Highlights</album>
+			<image>file:///home/klez/.cache/vlc/art/artistalbum/Sunwill/The%20Highlights/art.jpg</image>
+			<duration>221000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=37754</location>
+			<title>Juanitos - El Cha cha Man</title>
+			<creator>Juanitos</creator>
+			<album>Exotica</album>
+			<image>https://imgjam.com/albums/s4/4622/covers/1.100.jpg</image>
+			<duration>216000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=1006665</location>
+			<title>Teresa - To Say No</title>
+			<creator>Teresa</creator>
+			<album>To Say No</album>
+			<image>https://imgjam.com/albums/s118/118499/covers/1.100.jpg</image>
+			<duration>180000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=716981</location>
+			<title>Victoria Caffè - Sunday Walk</title>
+			<creator>Victoria Caffè</creator>
+			<album>Busy Days</album>
+			<image>https://imgjam.com/albums/s83/83642/covers/1.100.jpg</image>
+			<duration>240000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=8565</location>
+			<title>Manu Cornet - Uonin&#39;s Piece</title>
+			<creator>Manu Cornet</creator>
+			<album>Distance &amp; Temps</album>
+			<image>https://imgjam.com/albums/s1/1290/covers/1.100.jpg</image>
+			<duration>243000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=1009005</location>
+			<title>Much Ado About Nothing - Nothing Still Goes Wrong</title>
+			<creator>Much Ado About Nothing</creator>
+			<album>Nothing Still Goes Wrong</album>
+			<image>https://imgjam.com/albums/s118/118754/covers/1.100.jpg</image>
+			<duration>361000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=81016</location>
+			<title>Fortadelis - Infinitive Sight</title>
+			<creator>Fortadelis</creator>
+			<album>Ephemeris</album>
+			<image>https://imgjam.com/albums/s7/7421/covers/1.100.jpg</image>
+			<duration>199000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=151116</location>
+			<title>Torley on Piano - Love by moonlight</title>
+			<creator>Torley on Piano</creator>
+			<album>Solo piano 7: Improvisations for a New Age</album>
+			<image>https://imgjam.com/albums/s21/21576/covers/1.100.jpg</image>
+			<duration>130000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=81743</location>
+			<title>Pornophonique - Space invaders</title>
+			<creator>Pornophonique</creator>
+			<album>8-bit lagerfeuer</album>
+			<image>https://imgjam.com/albums/s7/7505/covers/1.100.jpg</image>
+			<duration>206000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=2211</location>
+			<title>AdHoc - La note en cage</title>
+			<creator>AdHoc</creator>
+			<album>Toutes directions</album>
+			<image>https://imgjam.com/albums/s0/357/covers/1.100.jpg</image>
+			<duration>292000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=310255</location>
+			<title>No Hair On Head - Walking on light</title>
+			<creator>No Hair On Head</creator>
+			<album>Walking on light</album>
+			<image>https://imgjam.com/albums/s42/42122/covers/1.100.jpg</image>
+			<duration>241000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=4887</location>
+			<title>Tom La Meche - Voyageur</title>
+			<creator>Tom La Meche</creator>
+			<album>Voyageur</album>
+			<image>https://imgjam.com/albums/s0/751/covers/1.100.jpg</image>
+			<duration>251000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=1044051</location>
+			<title>Jason Pfaff - Moonlight Dance</title>
+			<creator>Jason Pfaff</creator>
+			<album>Piano Instrumental and Cinematic Music</album>
+			<image>https://imgjam.com/albums/s123/123015/covers/1.100.jpg</image>
+			<duration>149000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=484332</location>
+			<title>Jonathan Dimmel - Closer at the start</title>
+			<creator>Jonathan Dimmel</creator>
+			<album>Closer at the start</album>
+			<image>https://imgjam.com/albums/s57/57010/covers/1.100.jpg</image>
+			<duration>225000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=937038</location>
+			<title>Bside - Acid Explosion</title>
+			<creator>Bside</creator>
+			<album>Evolution</album>
+			<image>https://imgjam.com/albums/s109/109991/covers/1.100.jpg</image>
+			<duration>427000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=670706</location>
+			<title>Pilot To Paradise - Star Gazing</title>
+			<creator>Pilot To Paradise</creator>
+			<album>Star Gazing</album>
+			<image>https://imgjam.com/albums/s77/77780/covers/1.100.jpg</image>
+			<duration>195000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=317695</location>
+			<title>Jahzzar - Smooth</title>
+			<creator>Jahzzar</creator>
+			<album>Smooth</album>
+			<image>https://imgjam.com/albums/s42/42950/covers/1.100.jpg</image>
+			<duration>288000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=691945</location>
+			<title>Class 99 - That Guy (Unedited)</title>
+			<creator>Class 99</creator>
+			<album>Apartment Vibe (EP)</album>
+			<image>https://imgjam.com/albums/s80/80636/covers/1.100.jpg</image>
+			<duration>272000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=989370</location>
+			<title>Sunwill - Wonder Doll</title>
+			<creator>Sunwill</creator>
+			<album>Wonder Doll (Single)</album>
+			<image>https://imgjam.com/albums/s116/116403/covers/1.100.jpg</image>
+			<duration>208000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=852</location>
+			<title>Kiff&#39;On - Né Funky</title>
+			<creator>Kiff&#39;On</creator>
+			<album>Nés Funky</album>
+			<image>https://imgjam.com/albums/s0/139/covers/1.100.jpg</image>
+			<duration>250000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=860676</location>
+			<title>Adult Only - Retroforte</title>
+			<creator>Adult Only</creator>
+			<album>Retroforte</album>
+			<image>https://imgjam.com/albums/s100/100759/covers/1.100.jpg</image>
+			<duration>352000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=760445</location>
+			<title>BREEZELESS - Spinning around</title>
+			<creator>BREEZELESS</creator>
+			<album>Best of 10 Years - The Ultimate Collection GOLD</album>
+			<image>https://imgjam.com/albums/s88/88946/covers/1.100.jpg</image>
+			<duration>211000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=760439</location>
+			<title>BREEZELESS - The Searching</title>
+			<creator>BREEZELESS</creator>
+			<album>Best of 10 Years - The Ultimate Collection GOLD</album>
+			<image>https://imgjam.com/albums/s88/88946/covers/1.100.jpg</image>
+			<duration>155000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=568089</location>
+			<title>Chris Squier - Ophelia Forgive Me</title>
+			<creator>Chris Squier</creator>
+			<album>Flowers Beneath the Ashes EP</album>
+			<image>https://imgjam.com/albums/s65/65636/covers/1.100.jpg</image>
+			<duration>284000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=454788</location>
+			<title>Andreas Verhamme - Dubai</title>
+			<creator>Andreas Verhamme</creator>
+			<album>Atmosphère</album>
+			<image>https://imgjam.com/albums/s54/54399/covers/1.100.jpg</image>
+			<duration>203000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=90167</location>
+			<title>Bessonn&amp;sa - No Love</title>
+			<creator>Bessonn&amp;sa</creator>
+			<album>Insomnia</album>
+			<image>https://imgjam.com/albums/s8/8882/covers/1.100.jpg</image>
+			<duration>220000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=181452</location>
+			<title>Löhstana David - Le petit guignol</title>
+			<creator>Löhstana David</creator>
+			<album>Le Moins Pire (avant la suite)</album>
+			<image>https://imgjam.com/albums/s27/27215/covers/1.100.jpg</image>
+			<duration>241000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=312918</location>
+			<title>Jan y Su Son Latino - Jan Acendra y Su Son Latino - 03 - Asi Es El Carnaval</title>
+			<creator>Jan y Su Son Latino</creator>
+			<album>Naciendo Para El Mundo</album>
+			<image>https://imgjam.com/albums/s42/42360/covers/1.100.jpg</image>
+			<duration>220000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=1082883</location>
+			<title>Roger Subirana Mata - Between Worlds</title>
+			<creator>Roger Subirana Mata</creator>
+			<album>XII</album>
+			<image>https://imgjam.com/albums/s128/128992/covers/1.100.jpg</image>
+			<duration>309000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=151047</location>
+			<title>Torley on Piano - Melancholera</title>
+			<creator>Torley on Piano</creator>
+			<album>Solo piano 7: Improvisations for a New Age</album>
+			<image>https://imgjam.com/albums/s21/21576/covers/1.100.jpg</image>
+			<duration>146000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=166336</location>
+			<title>Fortadelis - Sidewalk</title>
+			<creator>Fortadelis</creator>
+			<album>Convergence</album>
+			<image>https://imgjam.com/albums/s24/24399/covers/1.100.jpg</image>
+			<duration>286000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=8561</location>
+			<title>Manu Cornet - Distance</title>
+			<creator>Manu Cornet</creator>
+			<album>Distance &amp; Temps</album>
+			<image>https://imgjam.com/albums/s1/1290/covers/1.100.jpg</image>
+			<duration>248000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=80706</location>
+			<title>Serakina - 3 Days</title>
+			<creator>Serakina</creator>
+			<album>Serakina</album>
+			<image>https://imgjam.com/albums/s7/7389/covers/1.100.jpg</image>
+			<duration>309000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=215756</location>
+			<title>Josh Woodward - Soft Orange Glow</title>
+			<creator>Josh Woodward</creator>
+			<album>Here Today</album>
+			<image>https://imgjam.com/albums/s32/32625/covers/1.100.jpg</image>
+			<duration>196000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=440466</location>
+			<title>Raulin de los Bosques - Guitar Boogie</title>
+			<creator>Raulin de los Bosques</creator>
+			<album>Acoustic Routes</album>
+			<image>https://imgjam.com/albums/s53/53217/covers/1.100.jpg</image>
+			<duration>93000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=578181</location>
+			<title>Danish Daycare - A Purpose To My Sins</title>
+			<creator>Danish Daycare</creator>
+			<album>A Story Of Hurt (2010 Edition)</album>
+			<image>https://imgjam.com/albums/s66/66675/covers/1.100.jpg</image>
+			<duration>293000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=959594</location>
+			<title>Josh Woodward - Invisible Light</title>
+			<creator>Josh Woodward</creator>
+			<album>The Wake</album>
+			<image>https://imgjam.com/albums/s112/112820/covers/1.100.jpg</image>
+			<duration>250000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=817249</location>
+			<title>July Season - Over</title>
+			<creator>July Season</creator>
+			<album>July Season</album>
+			<image>https://imgjam.com/albums/s95/95481/covers/1.100.jpg</image>
+			<duration>198000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>44</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=306167</location>
+			<title>Stephane TV - Coldness Got Me Here</title>
+			<creator>Stephane TV</creator>
+			<album>S/t (ep)</album>
+			<image>https://imgjam.com/albums/s41/41593/covers/1.100.jpg</image>
+			<duration>293000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>45</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=1015359</location>
+			<title>Lollita - Sexy jouet</title>
+			<creator>Lollita</creator>
+			<album>Lollita</album>
+			<image>https://imgjam.com/albums/s119/119554/covers/1.100.jpg</image>
+			<duration>204000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>46</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=385138</location>
+			<title>Sunsearcher - Latin Rhythm</title>
+			<creator>Sunsearcher</creator>
+			<album>Sunsearcher Spirit</album>
+			<image>https://imgjam.com/albums/s48/48923/covers/1.100.jpg</image>
+			<duration>155000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>47</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=443379</location>
+			<title>Professor Kliq - Pangea</title>
+			<creator>Professor Kliq</creator>
+			<album>Community Service II</album>
+			<image>https://imgjam.com/albums/s53/53465/covers/1.100.jpg</image>
+			<duration>266000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>48</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=411019</location>
+			<title>Isoma - Isoma - Uccelli</title>
+			<creator>Isoma</creator>
+			<album>Isoma</album>
+			<image>https://imgjam.com/albums/s50/50813/covers/1.100.jpg</image>
+			<duration>260000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>49</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=14021</location>
+			<title>Galdson - Resignation</title>
+			<creator>Galdson</creator>
+			<album>Roots</album>
+			<image>https://imgjam.com/albums/s2/2007/covers/1.100.jpg</image>
+			<duration>240000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>50</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=398175</location>
+			<title>Greendjohn - Last Breath</title>
+			<creator>Greendjohn</creator>
+			<album>DigitaLegal</album>
+			<image>https://imgjam.com/albums/s49/49758/covers/1.100.jpg</image>
+			<duration>282000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>51</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=959596</location>
+			<title>Josh Woodward - Golden Sunrise</title>
+			<creator>Josh Woodward</creator>
+			<album>The Wake</album>
+			<image>https://imgjam.com/albums/s112/112820/covers/1.100.jpg</image>
+			<duration>251000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>52</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=210606</location>
+			<title>Adragante - Avalon</title>
+			<creator>Adragante</creator>
+			<album>Les cordes de l&#39;âme</album>
+			<image>https://imgjam.com/albums/s31/31131/covers/1.100.jpg</image>
+			<duration>179000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>53</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=14026</location>
+			<title>Galdson - I believe in you</title>
+			<creator>Galdson</creator>
+			<album>Roots</album>
+			<image>https://imgjam.com/albums/s2/2007/covers/1.100.jpg</image>
+			<duration>169000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>54</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=162037</location>
+			<title>Josh Woodward - On Brevity</title>
+			<creator>Josh Woodward</creator>
+			<album>The Simple Life</album>
+			<image>https://imgjam.com/albums/s23/23755/covers/1.100.jpg</image>
+			<duration>190000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>55</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=73989</location>
+			<title>NICOCO - Saladin</title>
+			<creator>NICOCO</creator>
+			<album>Cocktail</album>
+			<image>https://imgjam.com/albums/s6/6561/covers/1.100.jpg</image>
+			<duration>384000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>56</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=440863</location>
+			<title>No Hair On Head - Girls</title>
+			<creator>No Hair On Head</creator>
+			<album>Jump!!</album>
+			<image>https://imgjam.com/albums/s53/53402/covers/1.100.jpg</image>
+			<duration>256000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>57</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=468109</location>
+			<title>Andreas Verhamme - Solar eclipse - 03 - solar eclipse</title>
+			<creator>Andreas Verhamme</creator>
+			<album>Solar eclipse</album>
+			<image>https://imgjam.com/albums/s55/55496/covers/1.100.jpg</image>
+			<duration>232000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>58</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=936008</location>
+			<title>Uniform Motion - Back Up Your Soul</title>
+			<creator>Uniform Motion</creator>
+			<album>Life</album>
+			<image>https://imgjam.com/albums/s109/109861/covers/1.100.jpg</image>
+			<duration>218000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>59</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=946</location>
+			<title>Alexander Blu - Emptiness</title>
+			<creator>Alexander Blu</creator>
+			<album>May</album>
+			<image>https://imgjam.com/albums/s0/149/covers/1.100.jpg</image>
+			<duration>241000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>60</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=888932</location>
+			<title>Briovere Buffentis - Follow me</title>
+			<creator>Briovere Buffentis</creator>
+			<album>Follow me (43)</album>
+			<image>https://imgjam.com/albums/s104/104523/covers/1.100.jpg</image>
+			<duration>330000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>61</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=7247</location>
+			<title>FrenchLAB (MEA) - Rêves About U</title>
+			<creator>FrenchLAB (MEA)</creator>
+			<album>Mysterious Sounds</album>
+			<image>https://imgjam.com/albums/s1/1098/covers/1.100.jpg</image>
+			<duration>241000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>62</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=992661</location>
+			<title>Sunwill - Queen for a day</title>
+			<creator>Sunwill</creator>
+			<album>Coming (EP)</album>
+			<image>https://imgjam.com/albums/s116/116770/covers/1.100.jpg</image>
+			<duration>193000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>63</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=618823</location>
+			<title>Hot Fiction - My Girl Dances</title>
+			<creator>Hot Fiction</creator>
+			<album>Dark Room</album>
+			<image>https://imgjam.com/albums/s71/71656/covers/1.100.jpg</image>
+			<duration>195000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>64</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=631446</location>
+			<title>GroovyVoxx - Love Phenomena</title>
+			<creator>GroovyVoxx</creator>
+			<album>Celebrate</album>
+			<image>https://imgjam.com/albums/s73/73090/covers/1.100.jpg</image>
+			<duration>353000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>65</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=450545</location>
+			<title>Josh Woodward - Swansong</title>
+			<creator>Josh Woodward</creator>
+			<album>Breadcrumbs</album>
+			<image>https://imgjam.com/albums/s54/54034/covers/1.100.jpg</image>
+			<duration>261000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>66</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=1067291</location>
+			<title>Singleton - Breathe In Breathe Out</title>
+			<creator>Singleton</creator>
+			<album>Uncovered</album>
+			<image>https://imgjam.com/albums/s126/126162/covers/1.100.jpg</image>
+			<duration>250000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>67</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=153400</location>
+			<title>Olga Scotland - The Girl On The Fish</title>
+			<creator>Olga Scotland</creator>
+			<album>Крадущийся</album>
+			<image>https://imgjam.com/albums/s21/21883/covers/1.100.jpg</image>
+			<duration>290000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>68</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=304773</location>
+			<title>Erizo - Hasta Cuando</title>
+			<creator>Erizo</creator>
+			<album>=Humano</album>
+			<image>https://imgjam.com/albums/s41/41508/covers/1.100.jpg</image>
+			<duration>195000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>69</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=500970</location>
+			<title>WEXIN - High Fidelity</title>
+			<creator>WEXIN</creator>
+			<album>TIME IS NOW</album>
+			<image>https://imgjam.com/albums/s58/58669/covers/1.100.jpg</image>
+			<duration>249000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>70</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=80885</location>
+			<title>SaReGaMa - One Thousand And One Nights (featuring Hamelin Bérengnier) </title>
+			<creator>SaReGaMa</creator>
+			<album>Samadhi</album>
+			<image>https://imgjam.com/albums/s7/7406/covers/1.100.jpg</image>
+			<duration>355000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>71</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=435778</location>
+			<title>Spintronic - Puple ducks</title>
+			<creator>Spintronic</creator>
+			<album>Cauliflower&#39;s celebration</album>
+			<image>https://imgjam.com/albums/s52/52812/covers/1.100.jpg</image>
+			<duration>228000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>72</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=653328</location>
+			<title>Rataxes - Jazz It Up [No Samples Edit]</title>
+			<creator>Rataxes</creator>
+			<album>House Arrest</album>
+			<image>https://imgjam.com/albums/s75/75675/covers/1.100.jpg</image>
+			<duration>342000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>73</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=760450</location>
+			<title>BREEZELESS - Nothings gonna stop me now!</title>
+			<creator>BREEZELESS</creator>
+			<album>Best of 10 Years - The Ultimate Collection GOLD</album>
+			<image>https://imgjam.com/albums/s88/88946/covers/1.100.jpg</image>
+			<duration>151000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>74</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=478541</location>
+			<title>Robin Grey - Till Dawn</title>
+			<creator>Robin Grey</creator>
+			<album>Strangers With Shoes</album>
+			<image>https://imgjam.com/albums/s56/56451/covers/1.100.jpg</image>
+			<duration>261000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>75</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=894909</location>
+			<title>La Dame Blanche - Better Start</title>
+			<creator>La Dame Blanche</creator>
+			<album>The Good, the Bad, the Broken</album>
+			<image>https://imgjam.com/albums/s105/105285/covers/1.100.jpg</image>
+			<duration>201000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>76</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=73427</location>
+			<title>Butumbaba - Racist Friend - feat. Roco (Maldita Vecindad)</title>
+			<creator>Butumbaba</creator>
+			<album>Majikakonvinazion</album>
+			<image>https://imgjam.com/albums/s6/6500/covers/1.100.jpg</image>
+			<duration>275000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>77</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=778170</location>
+			<title>Not From Georgia - New Waters</title>
+			<creator>Not From Georgia</creator>
+			<album>Love &amp; Umbrella</album>
+			<image>https://imgjam.com/albums/s91/91190/covers/1.100.jpg</image>
+			<duration>175000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>78</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=725570</location>
+			<title>Bryyn - About Anything</title>
+			<creator>Bryyn</creator>
+			<album>Les Alpettes</album>
+			<image>https://imgjam.com/albums/s84/84755/covers/1.100.jpg</image>
+			<duration>180000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>79</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=29870</location>
+			<title>Antony Raijekov - Lightout (2003)</title>
+			<creator>Antony Raijekov</creator>
+			<album>Jazz U</album>
+			<image>https://imgjam.com/albums/s3/3777/covers/1.100.jpg</image>
+			<duration>303000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>80</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=14456</location>
+			<title>Avec elle - Toi</title>
+			<creator>Avec elle</creator>
+			<album>A l&#39;aube</album>
+			<image>https://imgjam.com/albums/s2/2061/covers/1.100.jpg</image>
+			<duration>195000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>81</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=20232</location>
+			<title>Zeropage - Ambient India</title>
+			<creator>Zeropage</creator>
+			<album>Ambient Pills</album>
+			<image>https://imgjam.com/albums/s2/2843/covers/1.100.jpg</image>
+			<duration>386000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>82</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=96702</location>
+			<title>Mindthings - Human Feelings</title>
+			<creator>Mindthings</creator>
+			<album>Above Everything</album>
+			<image>https://imgjam.com/albums/s9/9958/covers/1.100.jpg</image>
+			<duration>194000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>83</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=380614</location>
+			<title>Mansur Samba Trio - Samba Simples</title>
+			<creator>Mansur Samba Trio</creator>
+			<album>Mansur Samba Trio - Live in  Rio 2008</album>
+			<image>https://imgjam.com/albums/s48/48348/covers/1.100.jpg</image>
+			<duration>250000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>84</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=2253</location>
+			<title>David Schombert - Background2</title>
+			<creator>David Schombert</creator>
+			<album>Quiet Life vol.2</album>
+			<image>https://imgjam.com/albums/s0/363/covers/1.100.jpg</image>
+			<duration>60000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>85</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=73428</location>
+			<title>Butumbaba - Sin Contaminantes</title>
+			<creator>Butumbaba</creator>
+			<album>Majikakonvinazion</album>
+			<image>https://imgjam.com/albums/s6/6500/covers/1.100.jpg</image>
+			<duration>259000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>86</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=168949</location>
+			<title>Roger Subirana Mata - A piece of heaven</title>
+			<creator>Roger Subirana Mata</creator>
+			<album>Point of no return</album>
+			<image>https://imgjam.com/albums/s24/24858/covers/1.100.jpg</image>
+			<duration>191000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>87</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=250097</location>
+			<title>Sean Fournier - Falling For You (Piano Version)</title>
+			<creator>Sean Fournier</creator>
+			<album>Oh My</album>
+			<image>https://imgjam.com/albums/s36/36026/covers/1.100.jpg</image>
+			<duration>203000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>88</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=939899</location>
+			<title>Basement Skylights - The SlowDown Pt1</title>
+			<creator>Basement Skylights</creator>
+			<album>Basement Skylights</album>
+			<image>https://imgjam.com/albums/s110/110373/covers/1.100.jpg</image>
+			<duration>179000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>89</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=484329</location>
+			<title>Jonathan Dimmel - Eight or Nine</title>
+			<creator>Jonathan Dimmel</creator>
+			<album>Closer at the start</album>
+			<image>https://imgjam.com/albums/s57/57010/covers/1.100.jpg</image>
+			<duration>272000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>90</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=619808</location>
+			<title>K4MMERER - Old Rhodes Ahead</title>
+			<creator>K4MMERER</creator>
+			<album>Rhodes to Wisdom</album>
+			<image>https://imgjam.com/albums/s71/71759/covers/1.100.jpg</image>
+			<duration>219000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>91</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=151120</location>
+			<title>Torley on Piano - Italiano</title>
+			<creator>Torley on Piano</creator>
+			<album>Solo piano 7: Improvisations for a New Age</album>
+			<image>https://imgjam.com/albums/s21/21576/covers/1.100.jpg</image>
+			<duration>133000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>92</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=127886</location>
+			<title>SaReGaMa - Water (feat. Manish Vyas)</title>
+			<creator>SaReGaMa</creator>
+			<album>The 4 Elements</album>
+			<image>https://imgjam.com/albums/s18/18044/covers/1.100.jpg</image>
+			<duration>450000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>93</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=760433</location>
+			<title>BREEZELESS - The Sun</title>
+			<creator>BREEZELESS</creator>
+			<album>Best of 10 Years - The Ultimate Collection GOLD</album>
+			<image>https://imgjam.com/albums/s88/88946/covers/1.100.jpg</image>
+			<duration>196000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>94</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=875004</location>
+			<title>This Public Life - Bombs away</title>
+			<creator>This Public Life</creator>
+			<album>The Banquet</album>
+			<image>https://imgjam.com/albums/s102/102695/covers/1.100.jpg</image>
+			<duration>282000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>95</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=991712</location>
+			<title>Bars&amp;Beats Studio - Sunshine</title>
+			<creator>Bars&amp;Beats Studio</creator>
+			<album>BB Studio Library n°1</album>
+			<image>https://imgjam.com/albums/s116/116662/covers/1.100.jpg</image>
+			<duration>124000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>96</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=169151</location>
+			<title>Eliot ness - Dance  baby</title>
+			<creator>Eliot ness</creator>
+			<album>Eliot ness</album>
+			<image>https://imgjam.com/albums/s24/24851/covers/1.100.jpg</image>
+			<duration>236000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>97</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=1009673</location>
+			<title>Fresh Body Shop - Endless Hours</title>
+			<creator>Fresh Body Shop</creator>
+			<album>Wizard</album>
+			<image>https://imgjam.com/albums/s118/118858/covers/1.100.jpg</image>
+			<duration>168000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>98</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://api.jamendo.com/get2/stream/track/redirect/?id=74549</location>
+			<title>Loon Attic - Thank you</title>
+			<creator>Loon Attic</creator>
+			<album>Taking over the asylum</album>
+			<image>https://imgjam.com/albums/s6/6629/covers/1.100.jpg</image>
+			<duration>212000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>99</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+</playlist>

@@ -1,5 +1,6 @@
 import cherrypy
 from handlers import author, album, song
+import os, os.path
 
 
 if __name__ == '__main__':
@@ -21,5 +22,7 @@ if __name__ == '__main__':
             {'request.dispatch': cherrypy.dispatch.MethodDispatcher()}
          }
     )
+    static_handler = cherrypy.tools.staticdir.handler(section="/", dir=os.path.abspath(os.getcwd())+"/static")
+    cherrypy.tree.mount(static_handler, '/')
     cherrypy.engine.start()
     cherrypy.engine.block()

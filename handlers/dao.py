@@ -30,6 +30,15 @@ def getAnagraphicTableResults(table, query):
     return results
 
 
+def getBasicSearch(query):
+    """Returns a combined search of authors, albums and songs matching the query"""
+    r = {}
+    r['authors'] = getAuthors(query)
+    r['albums'] = getAlbums(query, None)
+    r['songs'] = getSongs(query, None, None)
+    return r
+
+
 def getAuthors(query):
     """Returns a dictionary of authors array"""
     return getAnagraphicTableResults(authors, query)

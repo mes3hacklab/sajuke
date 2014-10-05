@@ -12,4 +12,4 @@ class Author(object):
 
     def GET(self, name=None):
         """Return a json array of authors"""
-        return json.dumps(dao.getAuthors(name))
+        return json.dumps(dao.getAuthors(name, -1, -1))

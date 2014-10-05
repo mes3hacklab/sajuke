@@ -19,7 +19,7 @@ songs = Table('songs', MetaData(),
               Column('name', Text))
 
 
-def getAnagraphicTableResults(table, query):
+def getAnagraphicTableResults(table, query, limit, offset):
     """Returns a dictionary representing the results of a query on a table
     composed of two columns: id (Integer Primary Key) and Name (Text)"""
     results = []
@@ -27,6 +27,12 @@ def getAnagraphicTableResults(table, query):
 
     if query is not None and query.strip() != '':
         s = s.where(table.c.name.like('%' + query + '%'))
+
+    if limit != -1:
+        s = s.limit(limit)
+
+    if offset != -1:
+        s = s.offset(offset)
 
     for row in dbconnection.execute(s):
         r = {}
@@ -36,21 +42,21 @@ def getAnagraphicTableResults(table, query):
     return results
 
 
-def getBasicSearch(query):
+def getBasicSearch(query, limit, offset):
     """Returns a combined search of authors, albums and songs matching the query"""
     r = {}
-    r['authors'] = getAuthors(query)
-    r['albums'] = getAlbums(query, None)
-    r['songs'] = getSongs(query, None, None)
+    r['authors'] = getAuthors(query, limit, offset)
+    r['albums'] = getAlbums(query, None, limit, offset)
+    r['songs'] = getSongs(query, None, None, limit, offset)
     return r
 
 
-def getAuthors(query):
+def getAuthors(query, limit, offset):
     """Returns a dictionary of authors array"""
-    return getAnagraphicTableResults(authors, query)
+    return getAnagraphicTableResults(authors, query, limit, offset)
 
 
-def getAlbums(query, authorid):
+def getAlbums(query, authorid, limit, offset):
     """Returns a dictionary of albums array"""
     results = []
     s = sqlalchemy.sql.select([albums.c.id, albums.c.name, authors.c.id,
@@ -66,6 +72,12 @@ def getAlbums(query, authorid):
         except ValueError:
             pass
 
+    if limit != -1:
+        s = s.limit(limit)
+
+    if offset != -1:
+        s = s.offset(offset)
+
     for row in dbconnection.execute(s):
         r = {"id": row[0],
              "name": row[1],
@@ -75,7 +87,7 @@ def getAlbums(query, authorid):
     return results
 
 
-def getSongs(query, authorid, albumid):
+def getSongs(query, authorid, albumid, limit, offset):
     """Returns a dictionary of songs array"""
     results = []
     s = sqlalchemy.sql.select([songs.c.id, songs.c.name,
@@ -98,6 +110,12 @@ def getSongs(query, authorid, albumid):
             s = s.where(albums.c.id == int(albumid))
         except ValueError:
             pass
+
+    if limit != -1:
+        s = s.limit(limit)
+
+    if offset != -1:
+        s = s.offset(offset)
 
     for row in dbconnection.execute(s):
         r = {"id": row[0],

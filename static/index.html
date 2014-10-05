@@ -1,1 +1,66 @@
-test
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>String Jukebox</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.2.css" type="text/css"/>
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.4.2.min.js"></script>
+		<script src="js/script.js"></script>
+
+
+        
+	</head>
+		<body>
+			
+<!--PAGE-->			
+			<div class="main" data-role="page">
+				
+<!--HEADER-->				
+				<div id="head" data-role="header" data-position="fixed" data-tap-toggle="false">
+					<div class="ui-bar">
+						<a href="#navpanel" class="ui-link ui-btn ui-btn-inline ui-icon-bars ui-btn-icon-notext ui-corner-all"></a>
+						<h2>String</h2>
+					</div>
+				</div>
+<!--/HEADER-->		
+<!--PANEL-->				
+				<div id="navpanel" data-role="panel" data-position="left" data-theme="b" data-display="reveal">		
+					<ul  class="ui-listview" data-role="listview">
+						<li><a class="ui-btn ui-btn-icon-right ui-icon-carat-r">Benvenuti</a></li>
+						<li><a class="ui-btn ui-btn-icon-right ui-icon-carat-r">Lista Canzoni</a></li>
+						<li><a class="ui-btn ui-btn-icon-right ui-icon-carat-r">Coda</a></li>
+					</ul>	
+				</div> 
+<!--/PANEL-->
+
+
+					
+<!--MAIN-->
+				<div data-role="main" class="ui-content">
+					<div class="ui-content">
+						<div id="sorter">
+							<ul class="ul-listview" id="autocomplete" data-role="listview" data-filter="true">
+
+								<li class='elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2>A</h2><p>Gruppo - Album</p></li>
+
+
+							</ul>
+							<ul id="toclone" style="display: none" class="ul-listview" data-role="listview">
+								
+								<li class='ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2>A</h2><p>Gruppo - Album</p></li>
+
+
+							</ul>
+						</div>
+					</div>
+
+				</div> 
+<!--/MAIN-->
+
+											
+			</div> 
+<!--/PAGE-->
+
+		</body>
+</html>

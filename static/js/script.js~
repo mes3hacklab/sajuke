@@ -1,0 +1,21 @@
+$.ajaxSetup ({
+		cache: false
+	});
+$(document).ready(function(){
+	
+	$('#but').click(function(e){
+		e.preventDefault();
+		for (var i = 0; i < 100; i++) {
+			console.log("inizio " + i);
+			var element = $('#toclone li').clone();
+			console.log("clonato " + i);
+			element.find('h2').text(i);
+			console.log("titolo " + i);
+			$('#songs').append(element);
+			console.log("appeso " + i);
+		}
+		$('#song').listview('refresh');
+	});
+		
+});
+

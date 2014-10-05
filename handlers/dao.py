@@ -12,6 +12,12 @@ albums = Table('albums', MetaData(),
                Column('authorid', Integer, ForeignKey('authors.id')),
                Column('name', Text))
 
+songs = Table('songs', MetaData(),
+              Column('id', Integer, primary_key=True),
+              Column('authorid', Integer, ForeignKey('authors.id')),
+              Column('albumid', Integer, ForeignKey('albums.id')),
+              Column('name', Text))
+
 
 def getAnagraphicTableResults(table, query):
     """Returns a dictionary representing the results of a query on a table
@@ -71,4 +77,15 @@ def getAlbums(query, authorid):
 
 def getSongs(query, author, album):
     """Returns a dictionary of songs array"""
-    pass
+    results = []
+    s = sqlalchemy.sql.select([songs.c.id, songs.c.name])
+
+    if query is not None and query.strip() != '':
+        s = s.where(songs.c.name.like('%' + query + '%'))
+
+    for row in dbconnection.execute(s):
+        r = {"id": row[0],
+             "name": row[1]}
+        results.append(r)
+
+    return results

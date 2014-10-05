@@ -6,6 +6,6 @@ class Song:
     """Class to query songs"""
     exposed = True
 
-    def GET(self, query=None, author=None, album=None, sort_by='title', sort_order='asc'):
+    def GET(self, query=None, author=None, album=None, limit=-1, offset=-1):
         """Return a json array of songs"""
-        return json.dumps(dao.getSongs(query, author, album, -1, -1), ensure_ascii=False)
+        return json.dumps(dao.getSongs(query, author, album, limit, offset), ensure_ascii=False)

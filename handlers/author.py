@@ -10,6 +10,6 @@ class Author(object):
     def __init__(self):
         self.albums = album.Album()
 
-    def GET(self, name=None):
+    def GET(self, name=None, limit=-1, offset=-1):
         """Return a json array of authors"""
-        return json.dumps(dao.getAuthors(name, -1, -1))
+        return json.dumps(dao.getAuthors(name, limit, offset))

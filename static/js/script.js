@@ -21,7 +21,7 @@ $( document ).ready(function() {
                             html += "<li class='elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'>Author: " + val.name + "</li>";
                         });
 						$.each( response.songs, function ( i, val ) {
-                           html += "<li class='elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'>Song: " + val.name + "</li>";
+                           html += "<li class='elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2> " + val.name + "</h2><p> Album: " + val.album.name + " Author: " + val.author.name + "</p></li>";
                         });
                         $.each( response.albums, function ( i, val ) {
                             html += "<li class='elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2>" + val.name + "</h2><p> Author: " + val.author.name + " </p></li>";

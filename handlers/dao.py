@@ -78,14 +78,24 @@ def getAlbums(query, authorid):
 def getSongs(query, author, album):
     """Returns a dictionary of songs array"""
     results = []
-    s = sqlalchemy.sql.select([songs.c.id, songs.c.name])
+    s = sqlalchemy.sql.select([songs.c.id, songs.c.name,
+                               authors.c.id, authors.c.name,
+                               albums.c.id, albums.c.name]).where(
+                                   songs.c.authorid == authors.c.id).where(
+                                       songs.c.albumid == albums.c.id)
 
     if query is not None and query.strip() != '':
         s = s.where(songs.c.name.like('%' + query + '%'))
 
     for row in dbconnection.execute(s):
         r = {"id": row[0],
-             "name": row[1]}
+             "name": row[1],
+             "author": {
+                 "id": row[2],
+                 "name": row[3]},
+             "album": {
+                 "id": row[4],
+                 "name": row[5]}}
         results.append(r)
 
     return results

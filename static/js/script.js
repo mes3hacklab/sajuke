@@ -76,7 +76,7 @@ $( document ).ready(function() {
         .then( function (response) {
             html += "<li data-role='list-divider'>Albums</li>";
             $.each( response, function ( i, val ) {
-                html += "<li class='albums elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2> " + val.album.name + "</h2><p><strong> Author: </strong>" + val.author.name + "</p><input type='hidden' value='" + val.id + "'/></li>";
+                html += "<li class='albums elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2> " + val.album.name + "</h2><p><strong> Author: </strong>" + val.author.name + "</p><input type='text' value='" + val.id + "'/></li>";
             });
             html += "<li data-role='list-divider'>Songs</li>";
             $.each( response, function ( i, val ) {

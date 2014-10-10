@@ -21,7 +21,7 @@ $( document ).ready(function() {
     });
     $('#autocomplete').on('click', '.albums', function () {
         albumId = $(this).find('input').val();
-        $('input').val("");       
+        $('input[data-type="search"]').val("");       
         var ul = $('#autocomplete');
         var html = '';
         ul.html("");
@@ -31,7 +31,7 @@ $( document ).ready(function() {
     });
     $('#autocomplete').on('click', '.authors', function () {
         authorId = $(this).find('input').val();
-        $('input').val("");
+        $('input[data-type="search"]').val("");
         var ul = $('#autocomplete');
         var html = '';
         ul.html("");
@@ -54,14 +54,15 @@ $( document ).ready(function() {
 			$.each( response.authors, function ( i, val ) {
 				html += "<li class='authors elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'>" + val.name + "<input type='hidden' value='" + val.id + "'/></li>";
 			});
-			html += "<li data-theme='b' data-role='list-divider'>Songs</li>";
-			$.each( response.songs, function ( i, val ) {
-				html += "<li class='songs elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2> " + val.name + "</h2><p><strong> Album: </strong>" + val.album.name + "<strong> Author: </strong>" + val.author.name + "</p></li>";
-			});
 			html += "<li data-theme='b' data-role='list-divider'>Albums</li>";
 			$.each( response.albums, function ( i, val ) {
 				html += "<li class='albums elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2>" + val.name + "</h2><p><strong> Author: </strong>" + val.author.name + " </p><input type='hidden' value='" + val.id + "'/></li>";
 			});
+			html += "<li data-theme='b' data-role='list-divider'>Songs</li>";
+			$.each( response.songs, function ( i, val ) {
+				html += "<li class='songs elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2> " + val.name + "</h2><p><strong> Album: </strong>" + val.album.name + "<strong> Author: </strong>" + val.author.name + "</p></li>";
+			});
+
 			ul.html( html );
 			ul.listview( "refresh" );
 			ul.trigger( "updatelayout");

@@ -7,6 +7,6 @@ class Album:
 
     exposed = True
 
-    def GET(self, authorid=None, album=None, limit=-1, offset=-1):
+    def GET(self, authorid=None, query=None, limit=-1, offset=-1):
         """Return a json array of albums"""
-        return json.dumps(dao.getAlbums(album, authorid, limit, offset), ensure_ascii=False)
+        return json.dumps(dao.getAlbums(query, authorid, limit, offset), ensure_ascii=False)

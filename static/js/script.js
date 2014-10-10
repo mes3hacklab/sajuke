@@ -21,6 +21,7 @@ $( document ).ready(function() {
     });
     $('#autocomplete').on('click', '.albums', function () {
         albumId = $(this).find('input').val();
+        $('input').val("");       
         var ul = $('#autocomplete');
         var html = '';
         ul.html("");
@@ -30,6 +31,7 @@ $( document ).ready(function() {
     });
     $('#autocomplete').on('click', '.authors', function () {
         authorId = $(this).find('input').val();
+        $('input').val("");
         var ul = $('#autocomplete');
         var html = '';
         ul.html("");

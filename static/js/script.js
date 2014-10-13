@@ -38,6 +38,7 @@ $( document ).ready(function() {
         songsSearch(ul, authorId);
 		previousView = currentView;
 		currentView = "songs";
+
     });
     
 	function basicSearch(ul, query) {
@@ -128,6 +129,7 @@ $( document ).ready(function() {
 				$.each( response, function ( i, val ) {
 					html += "<li class='songs elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2> " + val.name + "</h2><p><strong> Album: </strong>" + val.album.name + "<strong> Author: </strong>" + val.author.name + "</p></li>";
 				});
+
 				ul.html( html );
 				ul.listview( "refresh" );
 				ul.trigger( "updatelayout");

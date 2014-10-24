@@ -19,6 +19,7 @@ $( document ).ready(function() {
 
  
     });
+    
     $('#autocomplete').on('click', '.albums', function () {
         albumId = $(this).find('input').val();
         $('input[data-type="search"]').val("");       
@@ -43,7 +44,7 @@ $( document ).ready(function() {
     
 	function basicSearch(ul, query) {
 		$.ajax({
-			url: "http://localhost:8080/api/basicSearch",
+			url: "/api/basicSearch",
 			dataType: "json",
 			crossDomain: true,
 			data: {
@@ -73,7 +74,7 @@ $( document ).ready(function() {
 	function albumsSearch(ul, albumId, query) {
 		currentAlbumId = albumId;
 		$.ajax({
-			url: "http://localhost:8080/api/songs",
+			url: "/api/songs",
 			dataType: "json",
 			crossDomain: true,
 			data: {
@@ -89,8 +90,6 @@ $( document ).ready(function() {
 			ul.html( html );
 			ul.listview( "refresh" );
 			ul.trigger( "updatelayout");
-//			previousView = currentView;
-//				currentView = "songs";
 		});
 	}
 
@@ -108,7 +107,7 @@ $( document ).ready(function() {
 			}
 		}
 		$.ajax({
-			url: "http://localhost:8080/api/albums",
+			url: "/api/albums",
 			dataType: "json",
 			crossDomain: true,	
 			data: callParameters
@@ -119,7 +118,7 @@ $( document ).ready(function() {
 				html += "<li class='albums elem ui-btn ui-btn-icon-right ui-icon-carat-r ui-li ui-li-has-thumb' data-icon='arrow-r' data-iconpos='right'><img src='img/box.png'><h2> " + val.name + "</h2><p><strong> Author: </strong>" + val.author.name + "</p><input type='hidden' value='" + val.id + "'/></li>";
 			});
 			$.ajax({
-				url: "http://localhost:8080/api/songs",
+				url: "/api/songs",
 				dataType: "json",
 				crossDomain: true,
 				data: callParameters
